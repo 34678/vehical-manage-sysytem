@@ -12,7 +12,10 @@
   "dependencies": {
     "json-server": "^0.14.2",
     "mint-ui": "^2.2.13",
-    "vue": "^2.5.21"
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.3.0",
@@ -42,8 +45,7 @@
   "postcss": {
     "plugins": {
       "autoprefixer": {},
-      "postcss-px2rem": {
-      }
+      "postcss-px2rem": {}
     }
   },
   "browserslist": [
